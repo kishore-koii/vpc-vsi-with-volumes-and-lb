@@ -15,7 +15,7 @@ variable ibm_region {
 
 variable generation {
   description = "Generation of VPC"
-  # type      = number Currently IBM Schematics does not support `number` variables. Uncomment when updated
+  type        = number
   default     = 2
 }
 
