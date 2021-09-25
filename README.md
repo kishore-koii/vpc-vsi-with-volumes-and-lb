@@ -1,4 +1,4 @@
-# VSI Workspace With Load Balancer
+# Multiple VSIs on VPC with block storage volume and a load balancer
 
 This module creates any number of VSI accross any number of subnets and connects them with a single load balancer. For this example module, Nginx is installed on all of the virtual servers and publicly available via the Load Balancer.
 
